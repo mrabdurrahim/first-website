@@ -127,3 +127,166 @@ nav ul li{
   border-radius:8px;
   border:none;
 }
+/* card designs */
+.card{
+  margin-left:160px;
+  margin-top:24px;
+  width:1280px;
+  height:324px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.card-title{
+  margin-left:160px;
+  font-size:40px;
+  font-weight:bold;
+  color:#0E0E0E;
+}
+.card-sub-title1{
+  width:302px;
+  height:244px;
+  border:1px solid lightgray;
+  border-radius:16px;
+ }
+
+
+.card-sub-title2{
+  width:302px;
+  height:244px;
+  border:1px solid lightgray;
+  border-radius:16px;
+}
+
+.card-sub-title3{
+  width:302px;
+  height:244px;
+  border:1px solid lightgray;
+  stroke:15%;
+  border-radius:16px;
+}
+
+.card-sub-title4{
+  width:302px;
+  height:244px;
+  border:1px solid lightgray;
+  border-radius:16px;
+}
+.heading{
+  margin:24px 12px;
+  font-size:20px;
+  font-weight:bold;
+  color:#0E0E0E;
+}
+.description{
+  margin:12px 12px;
+  font-size:16px;
+  font-weight:normal;
+  color:#0E0E0E;
+  opacity:70%;
+}
+.card-pic{
+  margin-left:12px;
+  margin-top:12px;
+}
+.card-description{
+  margin:0 160px;
+  font-size:16px;
+  font-weight:normal;
+  color:#0E0E0E;
+  opacity:70%;
+  padding:0;
+}
+
+.color-card{
+  margin:20px 160px;
+  width:1280px;
+  height:325px;
+  display:flex;
+  justify-content:space-between;
+}
+.pic-1{
+  padding:32px 0 0 32px;
+}
+.pic-2{
+  padding:32px 0 0 32px;
+}
+.pic-3{
+  padding:32px 0 0 32px;
+}
+.heading-1{
+  padding:0 32px 0 32px;
+}
+.heading-2{
+  padding:0 32px 0 32px;
+}
+.heading-3{
+  padding:0 32px 0 32px;
+}
+.description-1{
+  padding:0 32px 0 32px;
+}
+.description-2{
+  padding:0 32px 0 32px;
+}
+.description-3{
+  padding:0 32px 0 32px;
+}
+
+.color-1{
+  background-color:#96B9F3;
+  width:410px;
+  height:325px;
+  border:none;
+  border-radius:16px; 
+}
+.color-2{
+  background-color:#C6E4D6;
+  width:410px;
+  height:325px;
+  border:none;
+  border-radius:16px;
+}
+.color-3{
+  background-color:#F7EBCF;
+  width:410px;
+  height:325px;
+  border:none;
+  border-radius:16px; 
+  }
+.btn-1{
+  width:122px;
+  height:41px;
+  margin-left:32px;
+  margin-top:24px;
+  padding:11px 20px;
+  background-color:#5490F5;
+  border-radius:8px;
+  border:none;
+  align-items:center;
+  justify-content:center;
+}
+.btn-2{
+  width:122px;
+  height:41px;
+  margin-left:32px;
+  margin-top:24px;
+  padding:11px 20px;
+  background-color:#09A15C;
+  border-radius:8px;
+  border:none;
+  align-items:center;
+  justify-content:center;
+}
+.btn-3{
+  width:122px;
+  height:41px;
+  margin-left:32px;
+  margin-top:24px;
+  padding:11px 20px;
+  background-color:#FFC239;
+  border-radius:8px;
+  border:none;
+  align-items:center;
+  justify-content:center;
+}
