@@ -190,12 +190,14 @@ nav ul li{
   margin-top:12px;
 }
 .card-description{
+  width:1280px;
   margin:0 160px;
   font-size:16px;
   font-weight:normal;
   color:#0E0E0E;
   opacity:70%;
-  padding:0;
+  padding:0 12px;
+  border:none;
 }
 
 .color-card{
@@ -290,3 +292,29 @@ nav ul li{
   align-items:center;
   justify-content:center;
 }
+.chief{
+  width:1280px;
+  height:256px;
+  margin:0 160px 0 160px;
+  border:1px solid lightgray;
+}
+.statement{
+  font-size:16px;
+  font-weight:normal;
+  color:#0E0E0E;
+  padding:24px 24px 0 24px;
+}
+.name{
+  font-size:20px;
+  line-height:24px;
+  font-weight:500px;
+  color:#0E0E0E;
+  padding:24px 24px 0 24px;
+}
+.rank{
+  font-size:16px;
+  font-weight:normal;
+  color:#0E0E0E;
+  padding:0 24px 0 24px; 
+}
+
