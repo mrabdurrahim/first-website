@@ -64,7 +64,6 @@ nav{
   font-size: 32px;
   color:#0E0E0E;
   margin-left:160px;
-
 }
 nav ul li{
   list-style:none;
@@ -77,6 +76,12 @@ nav ul li{
   margin-right:160px;
   padding:15px 30px;
   border-radius:5px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn:hover{
+  color: white;
+  background-color: rgb(231, 140, 140);
 }
 
 .banner{
@@ -109,6 +114,7 @@ nav ul li{
   margin-bottom:16px;
 }
 .big{
+  font-family:class="fira-sans-bold";
   font-size:56px;
   font-weight:600;
   color:#0E0E0E;
@@ -123,9 +129,15 @@ nav ul li{
   font-weight:semi-bold;
   background-color:#006A50;
   color:white;
-  padding:17px 34px;
+  padding:7px 34px;
   border-radius:8px;
   border:none;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.bn:hover{
+  color: white;
+  background-color: rgb(231, 140, 140);
 }
 /* card designs */
 .card{
@@ -260,13 +272,19 @@ nav ul li{
   width:122px;
   height:41px;
   margin-left:32px;
-  margin-top:24px;
+  margin-top:7px;
   padding:11px 20px;
   background-color:#5490F5;
   border-radius:8px;
   border:none;
   align-items:center;
   justify-content:center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn-1:hover{
+  color: white;
+  background-color: rgb(231, 140, 140);
 }
 .btn-2{
   width:122px;
@@ -279,6 +297,12 @@ nav ul li{
   border:none;
   align-items:center;
   justify-content:center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn-2:hover{
+  color: white;
+  background-color: rgb(231, 140, 140);
 }
 .btn-3{
   width:122px;
@@ -291,6 +315,12 @@ nav ul li{
   border:none;
   align-items:center;
   justify-content:center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn-3:hover{
+  color: white;
+  background-color: rgb(231, 140, 140);
 }
 .chief{
   background-image:url(../assets/quote-bg.png);
@@ -338,7 +368,251 @@ nav ul li{
   font-size:20px;
 }
 .desh{
+  max-width:1280px;
   margin:0 160px;
   font-size:20px;
 }
 
+.satelite{
+  border-radius:24px;
+  width:408px;
+  height:306px;
+  margin-top:20px;
+}
+.both{
+  max-width:1280px;
+  display:flex;
+  justify-content:space-between;
+  margin: 16px 200px 80px 160px;
+}
+.blog-title{
+  font-size:32px;
+}
+.blog{
+  width:744px;
+  height:290px;
+}
+.btn-right{
+  color:white;
+  width:139px;
+  height:48px;
+  font-size:18px;
+  font-weight:600;
+  background-color:#006A50;
+  border:none;
+  border-radius:8px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn-right:hover{
+  color: white;
+  background-color: rgb(231, 140, 140);
+}
+.donate{
+font-family:class="fira-sans-bold";
+margin:0 160px 0 160px;
+text-align:center;
+}
+.donate-1{
+  text-align:center;
+  font-size:40px;
+  max-width: 1280px;
+}
+.donate-2{
+  font-size:16px;
+  max-width: 1280px;
+}
+/* button styles */
+.buton {
+  max-width:1280px;
+  justify-content:space-around;
+  border: none;
+  color: rgb(175, 163, 163);
+  margin: 0 245px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  
+}
+
+.buton-1 {
+  font-size: 40px;
+  font-weight:bold;
+  width:264px;
+  height:128px;
+  padding: 16px 32px;
+  background-color: rgb(192, 189, 189);
+  border: 2px solid #C6E4D6; 
+  color: black; 
+}
+
+.buton-1:hover {
+  color: white;
+  background-color: gray;
+}
+.buton-2 {
+  font-size: 40px;
+  font-weight:bold;
+  width:264px;
+  height:128px;
+  padding: 16px 32px;
+  background-color: rgb(194, 187, 187);
+  border: 2px solid #79e95d; 
+  color: black; 
+}
+
+.buton-2:hover {
+  color: white;
+  background-color: rgb(231, 139, 139);
+}
+.buton-3 {
+  font-size: 40px;
+  font-weight:bold;
+  width:264px;
+  height:128px;
+  padding: 16px 32px;
+  background-color: rgb(199, 195, 195);
+  border: 2px solid #a1f541; 
+  color: black; 
+}
+
+.buton-3:hover {
+  color: white;
+  background-color: rgb(231, 140, 140);
+}
+.buton-4 {
+  font-size: 40px;
+  font-weight:bold;
+  width:264px;
+  height:128px;
+  padding: 16px 32px;
+  background-color: rgb(194, 185, 185);
+  border: 2px solid #3ae434; 
+  color: black; 
+}
+
+.buton-4:hover {
+  color: white;
+  background-color: #4680fc;
+}
+#username{
+  border:1px solid lightgray;
+  opacity:0.4;
+  width:220px;
+  margin:0 300px;
+  padding:20px 400px
+}
+.buton-5{
+  align-items:center;
+  justify-content:center;
+  margin-top:25px;
+  margin-left:700px;
+  font-size: 18px;
+  font-weight:500;
+  width:151px;
+  height:70px;
+  padding: 16px 20px;
+  background-color:#006A50;
+  border: none;
+  border-radius:8px;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.buton-5:hover{
+  color: white;
+  background-color: rgb(231, 140, 140);
+}
+.sub{
+  border-radius:15px;
+  background-color: #C6E4D6;
+  margin:80px 160px 0 160px;
+}
+.news{
+  font-family:class="fira-sans-bold";
+  font-size:40px;
+  font-weight:bold;
+  text-align:center;
+  padding-top:80px;
+}
+.news-1{
+  color:#0E0E0E;
+  font-size:16px;
+  text-align:center;
+}
+.last{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  max-width:750px;
+  height:56px;
+  margin-left: 350px;
+  border:none;
+  font-size:24px;
+
+}
+#email{
+  color:black;
+  font-size:20px;
+  padding-left:18px;
+  background-color:white;
+  width:85%;
+  height:56px;
+  border:none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#subscribe{
+  color:white;
+  font-size:20px;
+  padding-left:18px;
+  background-color:#006A50;
+  width:15%;
+  border:none;
+  height:56px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.news-2{
+  text-align:center;
+  padding-top:30px;
+  padding-bottom:80px;
+}
+.Bd{
+  font-family:class="fira-sans-bold";
+  text-align:center;
+  margin-top:130px;
+  font-size:32px;
+  font-weight:bold; 
+}
+.foot{
+  margin:20px 160px 20px 160px;
+  width:1280px;
+  height:300px;
+  background-color:#C6E4D6;
+}
+.face{
+  width:24px;
+  height:24px;
+  display:flex;
+  justify-content:space-between;
+}
+.insta{
+  width:24px;
+  height:24px;
+  display:flex;
+  justify-content:space-between;
+}
+.tw{
+  width:24px;
+  height:24px;
+  display:flex;
+  justify-content:space-between;
+}
+
+
+   
+  
