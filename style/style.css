@@ -102,7 +102,7 @@ nav ul li{
   width:622px;
   height:29px;
   font-size:24px;
-  font-weight:medium;
+  font-weight:500;
   color:#0E0E0E;
   opacity:0.5;
   margin-top:0;
@@ -110,7 +110,7 @@ nav ul li{
 }
 .big{
   font-size:56px;
-  font-weight:bold;
+  font-weight:600;
   color:#0E0E0E;
   width:622px;
   height:201px;
@@ -140,7 +140,7 @@ nav ul li{
 .card-title{
   margin-left:160px;
   font-size:40px;
-  font-weight:bold;
+  font-weight:600;
   color:#0E0E0E;
 }
 .card-sub-title1{
@@ -175,13 +175,13 @@ nav ul li{
 .heading{
   margin:24px 12px;
   font-size:20px;
-  font-weight:bold;
+  font-weight:600;
   color:#0E0E0E;
 }
 .description{
   margin:12px 12px;
   font-size:16px;
-  font-weight:normal;
+  font-weight:500;
   color:#0E0E0E;
   opacity:70%;
 }
@@ -293,11 +293,15 @@ nav ul li{
   justify-content:center;
 }
 .chief{
+  background-image:url(../assets/quote-bg.png);
+  background-repeat:no-repeat;
+  background-position: 30px 15px;
   width:1280px;
   height:256px;
   margin:0 160px 0 160px;
   border:1px solid lightgray;
 }
+
 .statement{
   font-size:16px;
   font-weight:normal;
@@ -316,5 +320,25 @@ nav ul li{
   font-weight:normal;
   color:#0E0E0E;
   padding:0 24px 0 24px; 
+}
+.tbl, th, td{
+  border:1px solid gray;
+  width:1280px;
+  height:92px;
+  border-collapse: collapse;
+}
+.opinion, .tbl{
+  margin:0 160px 25px 160px;
+}
+.opinion{
+  font-size:40px;
+  font-weight:bold;
+}
+.tbl{
+  font-size:20px;
+}
+.desh{
+  margin:0 160px;
+  font-size:20px;
 }
 
