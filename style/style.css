@@ -84,6 +84,8 @@ nav ul li{
   background-color: rgb(231, 140, 140);
 }
 
+
+/* banner design*/
 .banner{
   width: 1280px;
   height:560px;
@@ -527,6 +529,7 @@ text-align:center;
   background-color: rgb(231, 140, 140);
 }
 .sub{
+  max-width:1280px;
   border-radius:15px;
   background-color: #C6E4D6;
   margin:80px 160px 0 160px;
@@ -566,6 +569,7 @@ text-align:center;
   border-bottom-left-radius: 10px;
 }
 #subscribe{
+  max-width:1280px;
   color:white;
   font-size:20px;
   padding-left:18px;
@@ -581,37 +585,28 @@ text-align:center;
   padding-top:30px;
   padding-bottom:80px;
 }
+
+/*    footer design  */
 .Bd{
+  max-width:1280px;
   font-family:class="fira-sans-bold";
   text-align:center;
+  justify-content:center;
+  margin-left:180px;
   margin-top:130px;
   font-size:32px;
   font-weight:bold; 
 }
 .foot{
-  margin:20px 160px 20px 160px;
+  max-width:1280px;
+  margin:20px 20px 20px 180px;
   width:1280px;
-  height:300px;
-  background-color:#C6E4D6;
-}
-.face{
-  width:24px;
-  height:24px;
+  height:50px;
   display:flex;
-  justify-content:space-between;
+  justify-content:center;
+  align-items:center;
 }
-.insta{
-  width:24px;
-  height:24px;
-  display:flex;
-  justify-content:space-between;
-}
-.tw{
-  width:24px;
-  height:24px;
-  display:flex;
-  justify-content:space-between;
-}
+
 
 
    
